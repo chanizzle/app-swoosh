@@ -276,7 +276,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3E-5T-q48" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3E-5T-q48" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                 <rect key="frame" x="10" y="597" width="355" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.4518141779" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -291,6 +291,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="eQ4-ne-app" firstAttribute="trailing" secondItem="P3E-5T-q48" secondAttribute="trailing" constant="10" id="3jm-1S-iyB"/>
                             <constraint firstItem="ooz-HD-A7B" firstAttribute="bottom" secondItem="eQ4-ne-app" secondAttribute="bottom" id="Bzg-fs-DxV"/>
                             <constraint firstItem="5ox-I6-N2T" firstAttribute="top" secondItem="eQ4-ne-app" secondAttribute="top" constant="20" id="CCy-Q8-K1b"/>
                             <constraint firstItem="ooz-HD-A7B" firstAttribute="top" secondItem="KgF-d1-daG" secondAttribute="top" id="CrP-ah-SVL"/>
@@ -299,6 +300,7 @@
                             <constraint firstItem="eQ4-ne-app" firstAttribute="bottom" secondItem="P3E-5T-q48" secondAttribute="bottom" constant="20" id="NeW-7l-SRT"/>
                             <constraint firstItem="ooz-HD-A7B" firstAttribute="trailing" secondItem="eQ4-ne-app" secondAttribute="trailing" id="Px3-Xf-hMf"/>
                             <constraint firstItem="b8k-Fu-7dJ" firstAttribute="top" secondItem="5ox-I6-N2T" secondAttribute="bottom" constant="50" id="Vao-ya-goj"/>
+                            <constraint firstItem="P3E-5T-q48" firstAttribute="leading" secondItem="eQ4-ne-app" secondAttribute="leading" constant="10" id="s2l-9k-1Wr"/>
                             <constraint firstItem="ooz-HD-A7B" firstAttribute="leading" secondItem="eQ4-ne-app" secondAttribute="leading" id="sbH-A4-yIn"/>
                             <constraint firstItem="eQ4-ne-app" firstAttribute="trailing" secondItem="5ox-I6-N2T" secondAttribute="trailing" id="xPW-X5-thT"/>
                             <constraint firstItem="eQ4-ne-app" firstAttribute="trailing" secondItem="b8k-Fu-7dJ" secondAttribute="trailing" constant="10" id="zmO-kB-2fK"/>
