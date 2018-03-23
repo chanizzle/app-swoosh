@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B912B932206302CC00D83BE0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912B931206302CC00D83BE0 /* WelcomeViewController.swift */; };
+		B912B9342065AF1F00D83BE0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912B9332065AF1F00D83BE0 /* Player.swift */; };
 		B9598249205F51E3002C5C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9598248205F51E3002C5C01 /* AppDelegate.swift */; };
 		B959824E205F51E3002C5C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B959824C205F51E3002C5C01 /* Main.storyboard */; };
 		B9598250205F51E3002C5C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B959824F205F51E3002C5C01 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B912B931206302CC00D83BE0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B912B9332065AF1F00D83BE0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B9598245205F51E3002C5C01 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9598248205F51E3002C5C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B959824D205F51E3002C5C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		B9BFC2B82062FD6D00B65CA5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B912B9332065AF1F00D83BE0 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				B9BFC2BD2062FE2E00B65CA5 /* SkillViewController.swift in Sources */,
 				B912B932206302CC00D83BE0 /* WelcomeViewController.swift in Sources */,
 				B959825C205F5967002C5C01 /* BorderButton.swift in Sources */,
+				B912B9342065AF1F00D83BE0 /* Player.swift in Sources */,
 				B9BFC2BB2062FE1E00B65CA5 /* LeagueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
